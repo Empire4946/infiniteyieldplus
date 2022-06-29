@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	--error("Infinite Yield is already running!",0)
+	error("Infinite Yield is already running!",0)
 	return
 end
 
@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Infinite Yield FE v"..ver
+Title.Text = "IY FE+ v"..ver
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.ZIndex = 10
 table.insert(shade1,Title)
@@ -12037,7 +12037,7 @@ task.spawn(function()
 			PopupText.ZIndex = 10
 			PopupText.Font = Enum.Font.SourceSans
 			PopupText.TextSize = 14
-			PopupText.Text = "Server Announcement"
+			PopupText.Text = "announcement you figgly wiggly diggly riggly miggly ziggly xiggly"
 			PopupText.TextColor3 = currentText1
 			PopupText.TextWrapped = true
 
