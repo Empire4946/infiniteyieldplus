@@ -11980,9 +11980,9 @@ end
 IYMouse.Move:Connect(checkTT)
 
 task.spawn(function()
-	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/version'))() end) then
+	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Empire4946/infiniteyieldplus/main/version'))() end) then
 		if ver ~= Version then
-			notify('Outdated','Get the new version at infyiff.github.io')
+			notify('u are using fork versioN????!?!?!','frick you')
 		end
 		if Announcement and Announcement ~= '' then
 			local AnnGUI = Instance.new("Frame")
