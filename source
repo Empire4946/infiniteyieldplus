@@ -12,7 +12,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-ver = '5.9'
+ver = '69.420'
 
 Players = game:GetService("Players")
 
